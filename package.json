@@ -1,0 +1,24 @@
+{
+    "name": "scriptNotificator",
+    "version": "0.0.1",
+    "description": "Tool to send a push bullet notification when the command-line command finishes",
+    "main": "/bin/notify.js",
+    "author": "Juan Contreras <jc@jccp.me>",
+    "license": "MIT",
+    "preferGlobal": true,
+    "keywords": [
+        "cli",
+        "tools",
+        "pushbullet"
+    ],
+    "bin": {
+        "notify": "./lib/notify.js"
+    },
+    "dependencies": {
+        "commander": "^2.9.0",
+        "configstore": "^2.1.0",
+        "lodash": "^4.17.4",
+        "prompt": "^1.0.0",
+        "pushbullet": "^1.4.3"
+    }
+}
